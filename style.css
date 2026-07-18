@@ -4,6 +4,7 @@ nav{
     align-items: center;
     padding: 20px 80px;
     background: white;
+    
 }
 nav ul{
     display: flex;
@@ -58,6 +59,7 @@ header{
     
     
     
+    
 }
 .Price-card ul{
     list-style: none;
@@ -84,4 +86,27 @@ header{
 .price-card-dual ul{
     list-style: none;
     border: 1px solid;
+}
+
+.footer{
+    display: flex;
+    gap: 150px;
+    padding: 20px 50px;
+    background: black;
+    color: white;
+}
+
+.jobs-career ul{
+    list-style: none;
+}
+.events ul{
+    list-style: none;
+}
+.for-business ul{
+    list-style: none;
+}
+.about-us ul{
+    list-style: none;
+    padding: 10px 15px;
+   
 }
