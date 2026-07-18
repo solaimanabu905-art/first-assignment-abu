@@ -1,12 +1,87 @@
-header{
+nav{
     display: flex;
-    justify-content: space between;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+    padding: 20px 80px;
+    background: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.btn{
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px
+    
+} 
+banner-img{
+    position: relative;
+    width: 100%
+    
+    
+   
+    
+}
+header{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 700px;
+    box-sizing: border-box;
+    text-align: center;
+    
 }
 
-.logo{
+.speaker{
+    text-align: center;
+}
+.Speakers-container{
     display: flex;
-    align-items: left side;
-    gap: 2px;
+    gap: 8px;
+    
+
+
+}
+.Price-container{
+    display: flex;
+    gap: 500px;
+    background-color: white;
+    
+    
+    
+}
+.Price-card ul{
+    list-style: none;
+    justify-content: center;
+    background: white;
+    padding: 30px;
+    border: 1px solid;
+    
+    
+
+}
+.price-card-active ul{
+    list-style: none;
+    padding: 30px;
+    border: 1px solid;
+    background: #0D1B2A;
+    color: white;
+}
+.price-card{
+    list-style: none;
+    padding: 30px;
+    
+}
+.price-card-dual ul{
+    list-style: none;
+    border: 1px solid;
 }
